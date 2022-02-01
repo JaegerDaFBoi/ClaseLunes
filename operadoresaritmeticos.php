@@ -6,6 +6,11 @@ $suma=$num1+$num2;
 $resta=$num1-$num2;
 $multiplicacion=$num1*$num2;
 $division=$num1/$num2;
+
+echo "La suma es: ".$suma;
+echo "<br>";
+echo "La resta es: ".$resta;
+echo "<br>";
 ?>
 
 <!DOCTYPE html>
