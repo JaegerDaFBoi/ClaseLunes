@@ -10,3 +10,5 @@ echo es el comando para imprimir informacion
 
 Imprimir una constante
 echo constant('usuario');  Se llama la constante con comillas simples
+
+Operadores aritmeticos
