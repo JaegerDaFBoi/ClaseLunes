@@ -26,13 +26,13 @@
                 echo "Su edad es $edad años";
                 echo "<br>";
             if ($edad>=18) {
-                echo '<script language="javascript">';
-                echo 'alert("Usted es mayor de edad")';
-                echo '</script>';
+                echo "<script language='javascript'>";
+                echo "alert('Su edad es $edad años. Usted es mayor de edad')";
+                echo "</script>";
             } else {
-                echo '<script language="javascript">';
-                echo 'alert("Usted es menor de edad")';
-                echo '</script>';
+                echo "<script language='javascript'>";
+                echo "alert('Su edad es $edad años. Usted es menor de edad')";
+                echo "</script>";
             }
         }  
     ?>
