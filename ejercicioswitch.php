@@ -8,18 +8,19 @@
 </head>
 <body>
     <form action="ejercicioswitch.php" method="post">
-        <input type="button" name="btn" value="Boton 1">
+        <input type="submit" name="btn" value="Boton 1">
         <br>
-        <input type="button" name="btn" value="Boton 2">
+        <input type="submit" name="btn" value="Boton 2">
         <br>
-        <input type="button" name="btn" value="Boton 3">
+        <input type="submit" name="btn" value="Boton 3">
         <br>
-        <input type="button" name="btn" value="Boton 4">
+        <input type="submit" name="btn" value="Boton 4">
         <br>
     </form>
     <?php
+        $seleccion=$_POST['btn'];
         
-        switch (isset($_POST['btn'])) {
+        switch ($seleccion) {
             case 'Boton 1':
                 echo "<script language='javascript'>";
                 echo "alert('Usted presiono el boton 1')";
