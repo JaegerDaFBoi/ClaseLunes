@@ -28,3 +28,8 @@ if (condicion){
 }
 
 ....................................
+
+Formularios PHP
+
+enctype => funcion que se declara en el elemento form de html para indicar que se van a enviar archivos
+La propiedad que se define es multipart/form-data
