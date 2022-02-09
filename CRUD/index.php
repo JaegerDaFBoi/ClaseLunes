@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
 <body>
+    <?php include_once "./views/menu.php"?>
     <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
