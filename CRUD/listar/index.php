@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,6 +26,22 @@
                     <button type="submit" class="btn btn-primary mb-3">Buscar</button>
                 </div>
             </form>
+        </div>
+        <div class="row">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Telefono</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php listar(); ?>
+            </tbody>
+        </table>
         </div>
     </div>
     <script src="./../js/bootstrap.min.js"></script>
