@@ -8,6 +8,19 @@
     <link rel="stylesheet" href="./../css/bootstrap.min.css">
 </head>
 <body>
+    <div class="container">
+        <?php
+        if (isset($_GET['status'])) {
+            ?>
+            <div class="row">
+                <div class="alert alert-success" role="alert">
+                    Contacto almacenado
+                </div>
+            </div>
+            <?php
+        }
+        ?>
+    </div>
     <div class="row">
         <form action="./save.php" method="POST" class="card-body">
             <h1 class="card-title">Insert(Crear)</h1>
