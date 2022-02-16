@@ -1,5 +1,23 @@
 <?php
 
+    function listar()//funcion para mostrar objetos en una tabla
+    {
+        require_once "./../database/conexion.php";//Se llama el archivo para conexion a base de datos
+        $query = "SELECT * FROM contactos";//Consulta Select para traer todos los datos
+        $data = mysqli_query($connection, $query, MYSQLI_ASSOC);
+
+        foreach ($data as $row){
+            ?>
+            <tr>
+                <td scope="row"><?php echo $row['id']; ?></td>
+                <td><?php echo $row['nombre']; ?></td>
+                <td><?php echo $row['telefono']; ?></td>
+                <td><?php echo $row['email']; ?></td>
+            </tr>
+            <?php
+        }
+    }
+    
 ?>
 
 <!DOCTYPE html>

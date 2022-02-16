@@ -13,6 +13,9 @@
         <li class="nav-item">
             <a class="nav-link" aria-current="page" href="<?php echo APP_URL;?>/insert/">Agregar</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="<?php echo APP_URL;?>/listar/">Mostrar Datos</a>
+        </li>
       </ul>
     </div>
   </div>
