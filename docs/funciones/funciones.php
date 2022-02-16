@@ -24,7 +24,7 @@
         foreach ($data as $row) {
             echo "El parametro de busqueda es: $busqueda"."<br>";
             echo "ID: ".$row['id']."<br>";
-            echo "Nombre: ".$row['nombre']."<br>";
+            echo "Nombre : ".$row['nombre']."<br>";
             echo "Telefono: ".$row['telefono']."<br>";
             echo "Email: ".$row['email']."<br>";
         }

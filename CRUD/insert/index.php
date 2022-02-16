@@ -36,7 +36,7 @@
                 <label for="correo" class="form-label">Correo Electronico</label>
                 <input type="text" class="form-control" id="correo" name="correo" placeholder="jhondoe@gmail.xxx">
             </div>
-            <button class="btn btn-primary col-12 mt-3">Guardar</button>
+            <button class="btn btn-primary col-12 mt-3">Guardar👹</button>
         </form>
     </div>
 <script src="./js/bootstrap.min.js"></script>
