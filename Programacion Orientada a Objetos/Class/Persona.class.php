@@ -62,5 +62,20 @@
                 echo mysqli_error($conexion);
             }
        }
+
+       public function listar()
+       {
+            $conexion=mysqli_connect('localhost','root','','crud_adsi');
+            $query="SELECT * FROM contactos";
+            $datos=mysqli_query($conexion,$query);
+            
+            foreach ($datos as $row ) {
+                echo $row['nombre'];
+                echo "<br>";
+                echo $row['telefono'];
+                echo "<br>";
+                echo $row['email'];
+            }
+       }
     }
 ?>
