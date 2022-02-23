@@ -14,6 +14,7 @@
                 <td><?php echo $row['telefono']; ?></td>
                 <td><?php echo $row['email']; ?></td>
                 <td><a class="btn btn-danger btn-sm" href="<?php echo APP_URL;?>/modificar/index.php?id=<?php echo $row['id'];?>">Editar✏</a></td>
+                <td><a class="btn btn-danger btn-sm" href="<?php echo APP_URL;?>/eliminar/index.php?id=<?php echo $row['id'];?>">Eliminar✂</a>
             </tr>
             <?php
         }
